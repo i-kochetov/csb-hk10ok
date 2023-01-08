@@ -107,39 +107,18 @@ p {
   margin-bottom: 1.5rem;
 }
 
-.app-store{
-  padding:16px 24px 16px 22px;
-  max-width:100%;
-  background-color: #F2F2F2;
-  border-radius: 132px;
-  width: fit-content;
+.app-store-badge{
+  height:54px;
 }
 
-.app-store p{
-  text-decoration: none;
-  font-size: 1.75rem;
-  line-height: 120%;
+.badges{
+  display:flex;
+  gap:1.5rem;
 }
 
-.app-store a{
-  text-decoration: none;
-}
-
-.app-store:hover{
-  cursor: pointer;
-  background-color:#EBEBEB;
-}
-
-.app-store-wrap{
-  gap:0.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.apple-logo{
-  max-height:40px;
-  padding-bottom: 4px;
+.app-store-badge:hover{
+  height:54px;
+  opacity: 80%;
 }
 
 .text-align-r{

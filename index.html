@@ -57,8 +57,8 @@
             <p>Selected works</p>
               <div class="projects">
                 <button class="button" id="mainBtn" >FreeConferenceCall</button>
-                <button class="button" id="mainBtn">CorelDraw</button>
-                <button class="button">Healthcare&nbsp;Platform</button>
+                <button class="button" id="CDBtn">CorelDraw</button>
+                <button class="button">More</button>
               </div>
         </div>
     </div>
@@ -81,5 +81,12 @@
     function redirectFunction(){
         window.location.href = "FCC.html";
     }
+</script>
+<script>
+  document.getElementById("CDBtn").addEventListener("click", redirectFunction);
+  
+  function redirectFunction(){
+      window.location.href = "CorelDraw.html";
+  }
 </script>
 </html>
