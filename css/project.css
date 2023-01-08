@@ -108,7 +108,7 @@ p {
 }
 
 .app-store-badge{
-  height:54px;
+  height:48px;
 }
 
 .badges{
@@ -117,7 +117,7 @@ p {
 }
 
 .app-store-badge:hover{
-  height:54px;
+  height:48px;
   opacity: 80%;
 }
 
