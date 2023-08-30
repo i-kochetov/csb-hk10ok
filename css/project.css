@@ -92,8 +92,8 @@ p {
 
 .description-title{
   font-family: Inter;
-  font-weight:normal;
-  color:var(--grey);
+  font-weight:600;
+  color:var(--black-main);
   font-size: 1.75rem;
   line-height: 140%;
 }
